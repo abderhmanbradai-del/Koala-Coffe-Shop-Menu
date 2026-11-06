@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>KOALA Coffee Shop – Menu</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="splash">
+  <video id="iv" muted playsinline autoplay loop preload="auto" poster="images/video-poster.jpg"><source src="video/koala-intro.mp4" type="video/mp4"></video>
+  <div class="shade"></div>
+  <button id="skip">Passer ›</button><button id="snd" aria-label="Son">🔇</button>
+  <div class="cap">
+    <p class="tg1">Every sip is a little moment of happiness.</p>
+    <p class="tg2">Your favorite coffee, your favorite place.</p>
+    <button id="go">VOIR LE MENU</button>
+  </div>
+</div>
+<header>
+  <div class="lg">🐨 KOALA <small>Coffee Shop</small></div>
+  <div style="display:flex;gap:8px"><button class="ic" id="zb" aria-label="Zoom">🔍</button><button class="ic" id="th" aria-label="Thème">🌗</button></div>
+  <div id="prog"></div>
+</header>
+<div id="stage">
+  <button class="ic nv" id="pv" aria-label="Page précédente">‹</button>
+  <div id="book"><div class="sh" id="sh"></div></div>
+  <button class="ic nv" id="nx" aria-label="Page suivante">›</button>
+  <div id="hint">Glisse ou touche les flèches pour tourner la page · touche la page pour zoomer</div>
+</div>
+<footer>
+  <div id="chips"></div>
+  <div id="dots"></div>
+  <div id="ct"><a href="tel:+213795027576">📞 0795 02 75 76</a><a href="tel:0667098708">📞 06 67 09 87 08</a><a href="https://www.instagram.com/koala.coffee.shop" target="_blank" rel="noopener">@koala.coffee.shop</a></div>
+</footer>
+<div id="zm"><button class="ic" id="zx" aria-label="Fermer">✕</button><img alt="Page du menu"></div>
+<script src="script.js"></script>
+</body>
+</html>
